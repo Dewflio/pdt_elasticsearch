@@ -1,0 +1,92 @@
+version: '2.2'
+services:
+  ES-CONT-1:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.5.3
+    container_name: ES-CONT-1
+    environment:
+      - node.name=ES-CONT-1
+      - xpack.security.enabled=false
+      - cluster.name=es-docker-cluster
+      - discovery.seed_hosts=ES-CONT-2,ES-CONT-3
+      - cluster.initial_master_nodes=ES-CONT-1,ES-CONT-2,ES-CONT-3
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data_volume:/data
+    ports:
+      - 9200:9200
+    networks:
+      - elastic
+
+  ES-CONT-2:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.5.3
+    container_name: ES-CONT-3
+    environment:
+      - node.name=ES-CONT-2
+      - xpack.security.enabled=false
+      - cluster.name=es-docker-cluster
+      - discovery.seed_hosts=ES-CONT-1,ES-CONT-3
+      - cluster.initial_master_nodes=ES-CONT-1,ES-CONT-2,ES-CONT-3
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data_volume:/data
+    networks:
+      - elastic
+
+  ES-CONT-3:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.5.3
+    container_name: ES-CONT-3
+    environment:
+      - node.name=ES-CONT-3
+      - xpack.security.enabled=false
+      - cluster.name=es-docker-cluster
+      - discovery.seed_hosts=ES-CONT-1,ES-CONT-2
+      - cluster.initial_master_nodes=ES-CONT-1,ES-CONT-2,ES-CONT-3
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data_volume:/data
+    networks:
+      - elastic
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.5.3
+    container_name: kibana
+    depends_on:
+      - ES-CONT-1
+      - ES-CONT-2
+      - ES-CONT-3
+    ports:
+      - '5601:5601'
+    networks:
+      - elastic
+    environment:
+      ELASTICSEARCH_URL: http://localhost:9200
+      ELASTICSEARCH_HOSTS: '["http://ES-CONT-1:9200","http://ES-CONT-2:9200","http://ES-CONT-3:9200"]'
+
+networks:
+  elastic:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_icc: "true"
+
+volumes:
+  data_volume:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: C:/Users/Leonard/Desktop/SCHOOL_MATS/ING/1.semester/PDT/PDT_zadanie_5/pdt_elasticsearch/data
