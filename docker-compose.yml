@@ -24,7 +24,7 @@ services:
 
   ES-CONT-2:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.5.3
-    container_name: ES-CONT-3
+    container_name: ES-CONT-2
     environment:
       - node.name=ES-CONT-2
       - xpack.security.enabled=false
