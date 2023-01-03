@@ -1,0 +1,253 @@
+{
+    "settings": {
+        "index": {
+            "number_of_shards": 3,
+            "number_of_replicas": 2,
+            "max_ngram_diff": 9
+        },
+        "analysis": {
+			"analyzer": {
+				"englando": {
+					"type": "custom",
+					"filter": [
+						"english_possessive_stemmer",
+						"lowercase",
+						"english_stop",
+						"english_stemmer"
+					],
+					"char_filter": [
+						"html_strip"
+					],
+					"tokenizer": "standard"
+				},
+                "custom_ngram": {
+                    "type": "custom",
+					"filter": [
+						"lowercase",
+						"asciifolding",
+						"filter_ngrams"
+					],
+					"char_filter": [
+						"html_strip"
+					],
+					"tokenizer": "standard"
+                },
+                "custom_shingles": {
+					"type": "custom",
+					"filter": [
+						"lowercase",
+						"asciifolding",
+						"filter_shingles"
+					],
+					"char_filter": [
+						"html_strip"
+					],
+					"tokenizer": "standard"
+				}
+            },
+            "filter":{
+                "filter_shingles": {
+                    "type": "shingle",
+                    "token_separator": ""
+                },
+                "filter_ngrams": {
+                    "type": "ngram",
+                    "min_gram": 1,
+                    "max_gram": 10
+                },
+                "english_stemmer": {
+					"type": "stemmer",
+					"language": "english"
+				},
+                "english_possessive_stemmer": {
+                    "type": "stemmer",
+					"language": "possessive_english"
+				},
+				"english_stop": {
+					"type": "stop",
+					"stopwords": "_english_"
+				}
+            }
+        }
+    },
+    "mappings":{
+        "dynamic": "strict",
+        "properties": {
+            "author": {
+                "properties":{
+                    "id": {
+                        "type": "long"
+                    },
+                    "name": {
+                        "type":"keyword",
+                        "fields": {
+                            "name_custom_shingles": {
+                                "type": "text",
+                                "analyzer": "custom_shingles"
+                            },
+                            "name_custom_ngram": {
+                                "type": "text",
+                                "analyzer": "custom_ngram"
+                            }
+                        }
+                    },
+                    "username": {
+                        "type":"keyword",
+                        "fields": {
+                            "username_custom_ngram": {
+                                "type": "text",
+                                "analyzer": "custom_ngram"
+                            }
+                        }
+                    },
+                    "description":{
+                        "type":"text",
+                        "analyzer": "englando",
+                        "fields": {
+                            "description_custom_shingles": {
+                                "type": "text",
+                                "analyzer": "custom_shingles"
+                            }
+                        }
+                    },
+                    "followers_count":{
+                        "type":"integer"
+                    },
+                    "following_count":{
+                        "type":"integer"
+                    },
+                    "tweet_count":{
+                        "type":"integer"
+                    },
+                    "listed_count":{
+                        "type":"integer"
+                    }
+                }
+            },
+            "tweet_info": {
+                "properties": {
+                    "id": {
+                        "type": "long"
+                    },
+                    "content": {
+                        "type": "text",
+                        "analyzer": "englando"
+                    },
+                    "possibly_sensitive": {
+                        "type": "boolean"
+                    },
+                    "language": {
+                        "type": "keyword"
+                    },
+                    "source": {
+                        "type": "keyword"
+                    },
+                    "retweet_count": {
+                        "type": "integer"
+                    },
+                    "reply_count": {
+                        "type": "integer"
+                    },
+                    "like_count": {
+                        "type": "integer"
+                    },
+                    "quote_count": {
+                        "type": "integer"
+                    },
+                    "created_at": {
+                        "type": "date"
+                    }
+                }
+            },
+            "annotations": {
+                "type": "nested",
+                "properties": {
+                    "id": {
+                        "type": "long"
+                    },
+                    "value": {
+                        "type": "keyword"
+                    },
+                    "type": {
+                        "type": "keyword"
+                    },
+                    "probability": {
+                        "type": "half_float"
+                    }
+                }
+            },
+            "context_domains": {
+                "type": "nested",
+                "properties": {
+                    "id": {
+                        "type": "long"
+                    },
+                    "name": {
+                        "type": "text"
+                    },
+                    "description": {
+                        "type": "text"
+                    }
+                }
+            },
+            "context_entities": {
+                "type": "nested",
+                "properties": {
+                    "id": {
+                        "type": "long"
+                    },
+                    "name": {
+                        "type": "text"
+                    },
+                    "description": {
+                        "type": "text"
+                    }
+                }
+            },
+            "links": {
+                "type": "nested",
+                "properties": {
+                    "id": {
+                        "type": "long"
+                    },
+                    "url": {
+                        "type": "keyword"
+                    },
+                    "title": {
+                        "type": "keyword"
+                    },
+                    "description": {
+                        "type": "text"
+                    }
+                }
+            },
+            "hashtags":{
+                "type": "nested",
+                "properties":{
+                    "id": {
+                        "type": "long"
+                    },
+                    "tag": {
+                        "type": "keyword",
+                        "normalizer": "lowercase"
+                    }
+                }
+            },
+            "conversation_references": {
+                "type": "nested",
+                "properties": {
+                    "conversation_id": {
+                        "type": "long"
+                    },
+                    "parent_id": {
+                        "type": "long"
+                    },
+                    "reference_type": {
+                        "type": "keyword"
+                    }
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+	"dynamic": "strict",
+	"properties": {
+        "author": {
+            "properties":{
+                "id": {
+                    "type": "long"
+                },
+                "name": {
+                    "type":"text",
+					"fields": {
+						"keyword": {
+							"type": "keyword"
+						}
+					}
+                },
+                "username": {
+                    "type":"text",
+					"fields": {
+						"keyword": {
+							"type": "keyword"
+						}
+					}
+                },
+                "description":{
+                    "type":"text"
+                },
+                "followers_count":{
+                    "type":"integer"
+                },
+                "following_count":{
+                    "type":"integer"
+                },
+                "tweet_count":{
+                    "type":"integer"
+                },
+                "listed_count":{
+                    "type":"integer"
+                }
+            }
+        },
+        "tweet_info": {
+            "properties": {
+                "id": {
+                    "type": "long"
+                },
+                "content": {
+                    "type": "text"
+                },
+                "possibly_sensitive": {
+                    "type": "boolean"
+                },
+                "language": {
+                    "type": "keyword"
+                },
+                "source": {
+                    "type": "keyword"
+                },
+                "retweet_count": {
+                    "type": "integer"
+                },
+                "reply_count": {
+                    "type": "integer"
+                },
+                "like_count": {
+                    "type": "integer"
+                },
+                "quote_count": {
+                    "type": "integer"
+                },
+                "created_at": {
+                    "type": "date"
+                }
+            }
+        },
+        "annotations": {
+            "type": "nested",
+            "properties": {
+                "id": {
+                    "type": "long"
+                },
+                "value": {
+                    "type": "keyword"
+                },
+                "type": {
+                    "type": "keyword"
+                },
+                "probability": {
+                    "type": "half_float"
+                }
+            }
+        },
+        "context_domains": {
+            "type": "nested",
+            "properties": {
+                "id": {
+                    "type": "long"
+                },
+                "name": {
+                    "type": "text"
+                },
+                "description": {
+                    "type": "text"
+                }
+            }
+        },
+        "context_entities": {
+            "type": "nested",
+            "properties": {
+                "id": {
+                    "type": "long"
+                },
+                "name": {
+                    "type": "text"
+                },
+                "description": {
+                    "type": "text"
+                }
+            }
+        },
+        "links": {
+            "type": "nested",
+            "properties": {
+                "id": {
+                    "type": "long"
+                },
+                "url": {
+                    "type": "keyword"
+                },
+                "title": {
+                    "type": "keyword"
+                },
+                "description": {
+                    "type": "text"
+                }
+            }
+        },
+        "hastags":{
+            "type": "nested",
+            "properties":{
+                "id": {
+                    "type": "long"
+                },
+                "tag": {
+                    "type": "keyword"
+                }
+            }
+        },
+        "parent_tweet": {
+			"properties": {
+                "id": {
+					"type": "long"
+				}
+			}
+		}
+		
+	}
+}
