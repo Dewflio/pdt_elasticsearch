@@ -41,18 +41,22 @@
 import psycopg2
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
-from datetime import datetime
-import pprint
+import time
 
 conn = psycopg2.connect(
    database="pdt_tweets", user='postgres', password='postgres', host='127.0.0.1', port= '5432'
 )
-cursor = conn.cursor()
+cursor = conn.cursor(name="cursor_name")
+cursor.itersize = 500000
+
+print("executing_query")
+start_time = time.time()
+
 cursor.execute("SELECT * FROM denormalized_tweets")
 
 es = Elasticsearch(hosts=['http://localhost:9200'])
 
-BLOCKSIZE = 10000
+BLOCKSIZE = 500
 import_arr = []
 counter = 0
 
@@ -60,7 +64,7 @@ for row in cursor:
     # init a new json record
     record = {}
     # set up the _index and _id of the record
-    record["_index"] = "tweet_index"
+    record["_index"] = "tweet_index_new" # "tweet_index" for the index with replicas
     record["_id"] = str(row[0])
     # set up fields
     record["author"] = {}
@@ -162,16 +166,14 @@ for row in cursor:
 
     counter +=1
     import_arr.append(record)
-    #pprint.pprint(record)
-    #print(record)
     if counter % BLOCKSIZE == 0:
         helpers.bulk(es, import_arr)
-        print(counter)
+        print(counter, time.time() - start_time)
         import_arr = []
 
 if import_arr != []:
     helpers.bulk(es, import_arr)
-    print(counter)
+    print(counter, time.time() - start_time)
 
 print("ALL DONE")
 

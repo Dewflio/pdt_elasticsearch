@@ -1,0 +1,29 @@
+{
+	"query": {
+		"function_score": {
+			"query": {
+				"bool": {	
+					"must" : [
+						
+						{"multi_match" : {
+							"query" : "put1n chr1stian fake jew",
+							"fields" : [
+								"author.description.description_custom_shingles^10",
+								"tweet_info.content^6"	
+							],
+							"operator": "OR"
+						}},
+						{"nested": {
+							"path" : "hashtags",
+							"query" : {
+								"match": {
+									"hashtags.tag" : "Ukraine"
+								}
+							}
+						}}
+					]
+				}
+			}
+		}	
+	}
+}
