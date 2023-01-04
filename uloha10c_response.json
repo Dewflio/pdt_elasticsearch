@@ -1,0 +1,1276 @@
+{
+	"took": 1280,
+	"timed_out": false,
+	"_shards": {
+		"total": 3,
+		"successful": 3,
+		"skipped": 0,
+		"failed": 0
+	},
+	"hits": {
+		"total": {
+			"value": 10000,
+			"relation": "gte"
+		},
+		"max_score": 50.0,
+		"hits": [
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497765974115717125",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 1189624095165407232,
+						"name": "just Jason",
+						"username": "Neuralblown",
+						"description": "😶🤷🏽‍♂️",
+						"followers_count": 163,
+						"following_count": 435,
+						"tweet_count": 5066,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497765974115717125,
+						"content": "@anonukr George Soros stands with Zelensky \nhttps://t.co/pL95O3AqKz",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 0,
+						"reply_count": 1,
+						"like_count": 1,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:50:10+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4725191,
+							"value": "George Soros",
+							"type": "Person",
+							"probability": 0.993
+						}
+					],
+					"context_domains": [
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						}
+					],
+					"links": [
+						{
+							"id": 2860182,
+							"title": "",
+							"url": "https://twitter.com/georgesoros/status/1497572673412599808?t=vEZtJPTZbtILv9uuJpNsfg&s=19",
+							"description": ""
+						}
+					],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497765974115717125,
+							"parent_id": 1497572673412599808,
+							"reference_type": "quoted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774473130434567",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 830592097774362625,
+						"name": "Ultra MAGA LadyLiberty0511🇺🇸🗽",
+						"username": "wooba129",
+						"description": "American by birth, PATRIOT by choice.",
+						"followers_count": 500,
+						"following_count": 2038,
+						"tweet_count": 13408,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774473130434567,
+						"content": "RT @thevivafrei: Lying media, lying politicians, and now @georgesoros singing the same tune. And I’m the radical “Putin lover” for stopping…",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPhone",
+						"retweet_count": 295,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:23:56+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4763277,
+							"value": "Putin",
+							"type": "Person",
+							"probability": 0.919
+						}
+					],
+					"context_domains": [
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774473130434567,
+							"parent_id": 1497773881842675719,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774499986505729",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 16079634,
+						"name": "Alexander (אלכסנדר)",
+						"username": "alexpigeon",
+						"description": "Southpaw / Tech Entrepreneur / #日本語 / RTs, likes ≠ Endorsements",
+						"followers_count": 2681,
+						"following_count": 2586,
+						"tweet_count": 133309,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774499986505729,
+						"content": "RT @barnes_law: Just a reminder: if you're cheering on us getting involving in Ukraine, you are doing George Soros' bidding.",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPhone",
+						"retweet_count": 367,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:02+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4763426,
+							"value": "Ukraine",
+							"type": "Place",
+							"probability": 0.999
+						},
+						{
+							"id": 4763427,
+							"value": "George Soros",
+							"type": "Person",
+							"probability": 0.986
+						}
+					],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774499986505729,
+							"parent_id": 1497774472228528131,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774511306981379",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 963402229158948864,
+						"name": "GrandContrarian",
+						"username": "GContrarian",
+						"description": "Worker, Northern Factory District",
+						"followers_count": 761,
+						"following_count": 1165,
+						"tweet_count": 280304,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774511306981379,
+						"content": "RT @barnes_law: Just a reminder: if you're cheering on us getting involving in Ukraine, you are doing George Soros' bidding.",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 367,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:05+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4763465,
+							"value": "Ukraine",
+							"type": "Place",
+							"probability": 0.999
+						},
+						{
+							"id": 4763466,
+							"value": "George Soros",
+							"type": "Person",
+							"probability": 0.986
+						}
+					],
+					"context_domains": [
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774511306981379,
+							"parent_id": 1497774472228528131,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774563572256769",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 1490482095046680576,
+						"name": "Hugh Jackman🇨🇦🇺🇲🇳🇱🇦🇺",
+						"username": "BruceRi81726656",
+						"description": "Male, happily in love with my wife children and god.. Canadian Trucker...\n\nI pull for North America... Stars and Stripes and Maple Leaf forever....",
+						"followers_count": 511,
+						"following_count": 242,
+						"tweet_count": 19234,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774563572256769,
+						"content": "RT @thevivafrei: Lying media, lying politicians, and now @georgesoros singing the same tune. And I’m the radical “Putin lover” for stopping…",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 295,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:17+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4763733,
+							"value": "Putin",
+							"type": "Person",
+							"probability": 0.919
+						}
+					],
+					"context_domains": [
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774563572256769,
+							"parent_id": 1497773881842675719,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774570627076096",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 1219690872,
+						"name": "Dallas",
+						"username": "Justice_Rises",
+						"description": "All things DC. Yinzer #HereWeGo (Yes I partly support #GoBucs since I am a local) #GoBolts . #RaysUp . Anime & Manga lover.",
+						"followers_count": 182,
+						"following_count": 797,
+						"tweet_count": 31523,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774570627076096,
+						"content": "RT @thevivafrei: Lying media, lying politicians, and now @georgesoros singing the same tune. And I’m the radical “Putin lover” for stopping…",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 295,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:19+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4763764,
+							"value": "Putin",
+							"type": "Person",
+							"probability": 0.919
+						}
+					],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774570627076096,
+							"parent_id": 1497773881842675719,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774596296167424",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 1491826608809906176,
+						"name": "HUD is a bit Harsh",
+						"username": "HuddyFish",
+						"description": "Just a normal common sense American. MAGA. President Trump is Still my president. The 2nd Amend ensures your 1st Amend. Hunt Fish. I am a Peaceful Conservative.",
+						"followers_count": 133,
+						"following_count": 223,
+						"tweet_count": 7002,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774596296167424,
+						"content": "RT @thevivafrei: Lying media, lying politicians, and now @georgesoros singing the same tune. And I’m the radical “Putin lover” for stopping…",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPhone",
+						"retweet_count": 295,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:25+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4763891,
+							"value": "Putin",
+							"type": "Person",
+							"probability": 0.919
+						}
+					],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						},
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774596296167424,
+							"parent_id": 1497773881842675719,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774700356853767",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 839003083,
+						"name": "Chadwick Redmayne",
+						"username": "BlueThunder2021",
+						"description": "Analyst. Web fan. Subtly charming social media geek.  Entrepreneur. Live like Rose. Dress like Blanche. Think like Dorothy. Speak like Sophia #Resist",
+						"followers_count": 380,
+						"following_count": 1605,
+						"tweet_count": 44048,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774700356853767,
+						"content": "RT @barnes_law: Just a reminder: if you're cheering on us getting involving in Ukraine, you are doing George Soros' bidding.",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter Web App",
+						"retweet_count": 367,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:50+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4764365,
+							"value": "George Soros",
+							"type": "Person",
+							"probability": 0.986
+						},
+						{
+							"id": 4764364,
+							"value": "Ukraine",
+							"type": "Place",
+							"probability": 0.999
+						}
+					],
+					"context_domains": [
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774700356853767,
+							"parent_id": 1497774472228528131,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774709785702400",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 42222564,
+						"name": "Eric Lavoie",
+						"username": "elavoie",
+						"description": "Life goes by fast, remember to enjoy it.\nMy pronouns: GTFO",
+						"followers_count": 818,
+						"following_count": 1483,
+						"tweet_count": 221301,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774709785702400,
+						"content": "RT @barnes_law: Just a reminder: if you're cheering on us getting involving in Ukraine, you are doing George Soros' bidding.",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPad",
+						"retweet_count": 367,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:24:52+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4764404,
+							"value": "Ukraine",
+							"type": "Place",
+							"probability": 0.999
+						},
+						{
+							"id": 4764405,
+							"value": "George Soros",
+							"type": "Person",
+							"probability": 0.986
+						}
+					],
+					"context_domains": [
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774709785702400,
+							"parent_id": 1497774472228528131,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497774762453606402",
+				"_score": 50.0,
+				"_source": {
+					"author": {
+						"id": 71384704,
+						"name": "sorrowen💀💀🏴‍☠️🏴‍☠️",
+						"username": "sorrowen",
+						"description": "Artist,Christian and snake guy.",
+						"followers_count": 1357,
+						"following_count": 4997,
+						"tweet_count": 386718,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497774762453606402,
+						"content": "RT @barnes_law: Just a reminder: if you're cheering on us getting involving in Ukraine, you are doing George Soros' bidding.",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPhone",
+						"retweet_count": 367,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T04:25:05+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4764658,
+							"value": "George Soros",
+							"type": "Person",
+							"probability": 0.986
+						},
+						{
+							"id": 4764657,
+							"value": "Ukraine",
+							"type": "Place",
+							"probability": 0.999
+						}
+					],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1018889957123821569,
+							"name": "George Soros",
+							"description": "George Soros"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						}
+					],
+					"links": [],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497774762453606402,
+							"parent_id": 1497774472228528131,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			}
+		]
+	}
+}

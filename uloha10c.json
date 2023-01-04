@@ -1,0 +1,54 @@
+{
+	"query": {
+		"function_score": {
+			"functions": [
+						{"filter" : {
+							"bool": {	
+								"should" : {
+										"nested" : {
+										"path" : "context_domains",
+										"query": {
+											"match" : {
+												"context_domains.name" : "Person"
+												}
+											}
+										}			
+								}
+							}
+						},
+						"weight" : 5
+					},
+					{"filter" : {
+							"bool": {	
+								"should" : {
+										"nested" : {
+										"path" : "context_entities",
+										"query": {
+											"match" : {
+												"context_entities.name" : "Soros"
+												}
+											}
+										}			
+								}
+							}
+						},
+						"weight" : 10
+					},
+					{"filter" : {
+							"bool": {	
+								"should" : {
+										"match_phrase" : {
+											"author.description.description_custom_shingles" :{
+												"query": "put1n chr1stian fake jew"
+											}
+										}			
+								}
+							}
+						},
+						"weight" : 5
+					}
+					
+			]
+		}	
+	}
+}
