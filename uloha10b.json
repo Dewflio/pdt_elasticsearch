@@ -1,0 +1,36 @@
+{
+	"query": {
+		"function_score": {
+			"query": {
+				"bool": {	
+					"filter" : [
+						
+						{"range" : {
+							"author.following_count" : {
+								"gt" : 100
+							}
+						}},
+						{"range" : {
+							"author.followers_count" : {
+								"gt" : 100
+							}
+						}},
+						{"nested" : {
+							"path" : "links",
+							"query": {
+								"bool": {
+									"must": {
+										"exists": {
+											"field" : "links.url"
+										}
+									}
+								} 
+							}
+						
+						}}
+					]
+				}
+			}
+		}	
+	}
+}

@@ -1,0 +1,1108 @@
+{
+	"took": 1288,
+	"timed_out": false,
+	"_shards": {
+		"total": 3,
+		"successful": 3,
+		"skipped": 0,
+		"failed": 0
+	},
+	"hits": {
+		"total": {
+			"value": 10000,
+			"relation": "gte"
+		},
+		"max_score": 0.0,
+		"hits": [
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761609040769026",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 919890050,
+						"name": "Mavis Martini",
+						"username": "MavisMartini",
+						"description": "Modtagista~",
+						"followers_count": 323,
+						"following_count": 975,
+						"tweet_count": 3710,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761609040769026,
+						"content": "For y'all in #ukraine 🇺🇦🌻⚡️David Bowie | “Heroes” | Live at Earls Court | 30 June 1978 https://t.co/r3DI85deGz via @YouTube",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter Web App",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:49+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4705727,
+							"value": "️David Bowie",
+							"type": "Person",
+							"probability": 0.74
+						},
+						{
+							"id": 4705728,
+							"value": "Earls Court",
+							"type": "Place",
+							"probability": 0.852
+						}
+					],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852104,
+							"title": "David Bowie | “Heroes” | Live at Earls Court | 30 June 1978",
+							"url": "https://youtu.be/4qcAtflfVYs",
+							"description": "David Bowie 1978 tour footage, predominately from the 30th of June Earls Court show, synced to \"Heroes\" from the album, Welcome to the Blackout, recorded liv..."
+						}
+					],
+					"hashtags": [
+						{
+							"id": 8260659053604559560,
+							"tag": "ukraine"
+						}
+					],
+					"conversation_references": []
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761613293961219",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 9227272,
+						"name": "金子遥洵　Yojun Kaneko",
+						"username": "yojunkaneko",
+						"description": "教育機会の限られた環境にくらす小学生向けに好きなものが見つかり学習意欲につながるワークショップを実施しています。NPO法人Motivation Maker理事。地元川口市でモチモチの会かわぐちの活動を始めました。発言は個人的な見解であり所属する組織の立場を表明するものではありません。趣味：家庭菜園・アニメ・踊り",
+						"followers_count": 1333,
+						"following_count": 3887,
+						"tweet_count": 17860,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761613293961219,
+						"content": "ウクライナ東部で子どもの支援を行ってきた非営利組織に寄付をしました。Paypalが日本からだと通らなかったのでクレジットカードにて。現在は子どもに限らず生活に必要な物資の調達をしている様子。 #StandWithUkraine https://t.co/H800FKAiWG",
+						"possibly_sensitive": false,
+						"language": "ja",
+						"source": "Twitter Web App",
+						"retweet_count": 1,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:50+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4705740,
+							"value": "ウクライナ東部",
+							"type": "Place",
+							"probability": 0.773
+						},
+						{
+							"id": 4705741,
+							"value": "Paypal",
+							"type": "Organization",
+							"probability": 0.458
+						},
+						{
+							"id": 4705742,
+							"value": "日本",
+							"type": "Place",
+							"probability": 0.622
+						}
+					],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852111,
+							"title": "",
+							"url": "https://twitter.com/razomforukraine/status/1497738865557360640",
+							"description": ""
+						}
+					],
+					"hashtags": [
+						{
+							"id": 8334578423031099137,
+							"tag": "StandWithUkraine"
+						}
+					],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761613293961219,
+							"parent_id": 1497738865557360640,
+							"reference_type": "quoted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761615545987078",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 474341572,
+						"name": "Tweets by Matt™",
+						"username": "TheFakeMattO",
+						"description": "panic tweets about #Cubs #Hawkeyes #Bears #FCBayern #Catholic and life in general.",
+						"followers_count": 201,
+						"following_count": 878,
+						"tweet_count": 34259,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761615545987078,
+						"content": "I dig it https://t.co/9HXsWuRr1n",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:50+01:00"
+					},
+					"annotations": [],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 3,
+							"name": "TV Shows",
+							"description": "Television shows from around the world"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 10039667766,
+							"name": "ヒーローズ ",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852113,
+							"title": "",
+							"url": "https://twitter.com/PuckinHostile/status/1497759818106429443",
+							"description": ""
+						}
+					],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761615545987078,
+							"parent_id": 1497759818106429443,
+							"reference_type": "quoted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761616326234115",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 2243516457,
+						"name": "ReSisterB*tch🌻🌻🌻🌻",
+						"username": "tjzepp02",
+						"description": "Big Dawg attitude in a little pup's body ...my bite is worse than my bark!  #blm #LGBTQ+Ally  #SunflowersForUkraine 🌻🌻🌻🌻",
+						"followers_count": 809,
+						"following_count": 1817,
+						"tweet_count": 17750,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761616326234115,
+						"content": "Trump is a wannabe Putin and Putin's Trojan horse for destroying America from within...yet you are an apologist and supporter of him above your oath to the constitution...until you denounce Trump, you have the blood of Ukrainians and Russians and our democracy on your hands! https://t.co/37pfoCEz0p",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:51+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4705757,
+							"value": "America",
+							"type": "Place",
+							"probability": 0.992
+						},
+						{
+							"id": 4705754,
+							"value": "Trump",
+							"type": "Person",
+							"probability": 0.999
+						},
+						{
+							"id": 4705755,
+							"value": "Putin",
+							"type": "Person",
+							"probability": 0.988
+						},
+						{
+							"id": 4705756,
+							"value": "Putin",
+							"type": "Person",
+							"probability": 0.995
+						},
+						{
+							"id": 4705758,
+							"value": "Trump",
+							"type": "Person",
+							"probability": 0.999
+						},
+						{
+							"id": 4705759,
+							"value": "Ukrainians",
+							"type": "Person",
+							"probability": 0.38
+						},
+						{
+							"id": 4705760,
+							"value": "Russians",
+							"type": "Person",
+							"probability": 0.71
+						}
+					],
+					"context_domains": [
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 29,
+							"name": "Events [Entity Service]",
+							"description": "Entity Service related Events domain"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 847876936378441729,
+							"name": "United States Foreign Policy",
+							"description": "Conversation about US Foreign Policy"
+						},
+						{
+							"id": 900740740468191232,
+							"name": "Political issues",
+							"description": "Political issues"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						},
+						{
+							"id": 1124379225207656448,
+							"name": "Trump says he discussed Venezuela and the Mueller report with Putin in an hour-long call",
+							"description": "President Trump confirmed the call in a series of Tweets on Friday, adding that the political turmoil in Venezuela was also a subject of a phone conversation with Russia's Vladimir Putin. Referring to the report's conclusion that Russia interfered in the 2016 election while clearing the Trump campaign of conspiracy, Trump said he and Putin discussed the \"Russia Hoax.\""
+						},
+						{
+							"id": 799022225751871488,
+							"name": "Donald Trump",
+							"description": "45th US President, Donald Trump"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 799022225751871488,
+							"name": "Donald Trump",
+							"description": "45th US President, Donald Trump"
+						},
+						{
+							"id": 799022225751871488,
+							"name": "Donald Trump",
+							"description": "45th US President, Donald Trump"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852115,
+							"title": "",
+							"url": "https://twitter.com/LindseyGrahamSC/status/1497758196760559618",
+							"description": ""
+						}
+					],
+					"hashtags": [],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761616326234115,
+							"parent_id": 1497758196760559618,
+							"reference_type": "quoted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761617009946626",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 1134572194422505479,
+						"name": "Science",
+						"username": "ScienceMilk",
+						"description": "🌊 I fed a camel (a two humper) some Coca Cola and later in the day he remembered me. A horse tried to bite me once. #Resistance Here, right matters. \nHe/Him",
+						"followers_count": 1996,
+						"following_count": 1098,
+						"tweet_count": 321292,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761617009946626,
+						"content": "RT @ZarinaZabrisky: Want to help #Ukraine and a cyber wizard? Join IT army. \"We need digital talents.\" https://t.co/jeRVuF75t5",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for Android",
+						"retweet_count": 210,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:51+01:00"
+					},
+					"annotations": [],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852118,
+							"title": "",
+							"url": "https://twitter.com/FedorovMykhailo/status/1497642156076511233",
+							"description": ""
+						}
+					],
+					"hashtags": [
+						{
+							"id": 5912623901112412789,
+							"tag": "Ukraine"
+						}
+					],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761617009946626,
+							"parent_id": 1497727007538380803,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761620004462593",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 1162165116437008385,
+						"name": "Aloha 🏝 Paradise",
+						"username": "KJNO816",
+						"description": "Democrat🌊RESISTER🌊PRO BLM PRO CHOICE VOTEBLUE🌊 fb @joncoopertweets @donwinslow @girlsreallyrule   @davenewworld_2 @nathaliejacoby1 @meidasjordy  @MikeSington",
+						"followers_count": 8163,
+						"following_count": 8172,
+						"tweet_count": 70602,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761620004462593,
+						"content": "#TakeOutPutin #TakePutinDown https://t.co/GRrR8MCNyy",
+						"possibly_sensitive": false,
+						"language": "qht",
+						"source": "Twitter for iPhone",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 2,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:51+01:00"
+					},
+					"annotations": [],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						},
+						{
+							"id": 864931126132985856,
+							"name": "Vladimir Putin",
+							"description": "President of Russia Vladimir Putin"
+						}
+					],
+					"links": [
+						{
+							"id": 2852120,
+							"title": "",
+							"url": "https://twitter.com/olex_scherba/status/1497692663847567363",
+							"description": ""
+						}
+					],
+					"hashtags": [
+						{
+							"id": 4394979795111146520,
+							"tag": "TakePutinDown"
+						},
+						{
+							"id": 8144481379789384202,
+							"tag": "TakeOutPutin"
+						}
+					],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761620004462593,
+							"parent_id": 1497692663847567363,
+							"reference_type": "quoted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761621602553856",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 2673956863,
+						"name": "(*˙˘˙) ✧ ₊˚ ꒱ ‧⁺",
+						"username": "thursber",
+						"description": "🏳️‍🌈",
+						"followers_count": 186,
+						"following_count": 206,
+						"tweet_count": 64193,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761621602553856,
+						"content": "RT @Israroguereport: Different time but same meaning. #ยูเครน #Ukraine https://t.co/rUpuDZnQwE",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPhone",
+						"retweet_count": 1733,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:52+01:00"
+					},
+					"annotations": [],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852124,
+							"title": "",
+							"url": "https://twitter.com/Israroguereport/status/1497061323045482497/photo/1",
+							"description": ""
+						}
+					],
+					"hashtags": [
+						{
+							"id": 5912623901112412789,
+							"tag": "Ukraine"
+						},
+						{
+							"id": -140604888065005954,
+							"tag": "ยูเครน"
+						}
+					],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761621602553856,
+							"parent_id": 1497061323045482497,
+							"reference_type": "retweeted"
+						}
+					]
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761621682360320",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 357850852,
+						"name": "Brittney Hoots",
+						"username": "CoachHoots",
+						"description": "Defensive Tackle @ Denver Bandits. MS in Sports Med., Strength & Conditioning Coach. PhD in Org. Leadership &Development in Sport, Competitive Powerlifter",
+						"followers_count": 261,
+						"following_count": 1400,
+						"tweet_count": 2315,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761621682360320,
+						"content": "#Evacuation #Ukraine #Pets #Help  https://t.co/pM44KPYhb7",
+						"possibly_sensitive": false,
+						"language": "qme",
+						"source": "Twitter for iPhone",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:52+01:00"
+					},
+					"annotations": [],
+					"context_domains": [
+						{
+							"id": 65,
+							"name": "Interests and Hobbies Vertical",
+							"description": "Top level interests and hobbies groupings, like Food or Travel"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 30,
+							"name": "Entities [Entity Service]",
+							"description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 847868745150119936,
+							"name": "Family & relationships",
+							"description": "Hobbies and interests"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 852262932607926273,
+							"name": "Pets",
+							"description": "Pets"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 852262932607926273,
+							"name": "Pets",
+							"description": "Pets"
+						}
+					],
+					"links": [
+						{
+							"id": 2852125,
+							"title": "Ukrainian evacuees fleeing across the border bring their animals",
+							"url": "https://www.dailymail.co.uk/news/article-10555687/Safe-havens-allow-Ukrainian-evacuees-fleeing-border-bring-animals.html",
+							"description": "One man carries an assault rifle over his shoulder and a cat and exotic fish in his hands as he saves them from a shell-damaged building in Kyiv."
+						}
+					],
+					"hashtags": [
+						{
+							"id": -1954967946958756087,
+							"tag": "Pets"
+						},
+						{
+							"id": -4014890493734553857,
+							"tag": "Help"
+						},
+						{
+							"id": -2885739832440773773,
+							"tag": "Evacuation"
+						},
+						{
+							"id": 5912623901112412789,
+							"tag": "Ukraine"
+						}
+					],
+					"conversation_references": []
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761622642741251",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 61405170,
+						"name": "Ashok Upadhyay",
+						"username": "ashoupadhyay",
+						"description": "Delhi Based Journalist",
+						"followers_count": 5513,
+						"following_count": 3174,
+						"tweet_count": 19849,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761622642741251,
+						"content": "युद्ध में भी मेहमाननवाजी! https://t.co/8ujRUGsrUk",
+						"possibly_sensitive": false,
+						"language": "hi",
+						"source": "Twitter Web App",
+						"retweet_count": 1,
+						"reply_count": 2,
+						"like_count": 6,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:52+01:00"
+					},
+					"annotations": [],
+					"context_domains": [
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852128,
+							"title": "",
+							"url": "https://twitter.com/BethBoykins22/status/1497746983204925441",
+							"description": ""
+						}
+					],
+					"hashtags": [],
+					"conversation_references": []
+				}
+			},
+			{
+				"_index": "tweet_index_new",
+				"_id": "1497761622831824897",
+				"_score": 0.0,
+				"_source": {
+					"author": {
+						"id": 179062372,
+						"name": "SanctimoniousTweetyBird🐀😈",
+						"username": "tuttp",
+						"description": "Looking forward to the rebuilding of our social fabric by  new Labor government & so proud to call Anthony Albanese our PM! Purple flowers=parakeelia #ICACnow",
+						"followers_count": 1857,
+						"following_count": 3325,
+						"tweet_count": 106059,
+						"listed_count": null
+					},
+					"tweet_info": {
+						"id": 1497761622831824897,
+						"content": "This needs to happen now! Even Taiwan has managed to do this @Dom_Perrottet @AlboMP @ChrisMinnsMP @ScottMorrisonMP @SenatorWong @MarisePayne #StandWithUkraine 🇺🇦💙💛🇦🇺 https://t.co/jQSZe23XbA",
+						"possibly_sensitive": false,
+						"language": "en",
+						"source": "Twitter for iPhone",
+						"retweet_count": 0,
+						"reply_count": 0,
+						"like_count": 0,
+						"quote_count": 0,
+						"created_at": "2022-02-27T03:32:52+01:00"
+					},
+					"annotations": [
+						{
+							"id": 4705792,
+							"value": "Taiwan",
+							"type": "Place",
+							"probability": 0.939
+						}
+					],
+					"context_domains": [
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 131,
+							"name": "Unified Twitter Taxonomy",
+							"description": "A taxonomy view into the Semantic Core knowledge graph"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						},
+						{
+							"id": 35,
+							"name": "Politician",
+							"description": "Politicians in the world, like Joe Biden"
+						},
+						{
+							"id": 10,
+							"name": "Person",
+							"description": "Named people in the world like Nelson Mandela"
+						},
+						{
+							"id": 123,
+							"name": "Ongoing News Story",
+							"description": "Ongoing News Stories like 'Brexit'"
+						}
+					],
+					"context_entities": [
+						{
+							"id": 1070032753834438656,
+							"name": "Political figures",
+							"description": "Politician"
+						},
+						{
+							"id": 1043141608147841024,
+							"name": "Scott Morrison",
+							"description": "Prime Minister of Australia, Scott Morrison"
+						},
+						{
+							"id": 847878884917886977,
+							"name": "Politics",
+							"description": "Politics"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						},
+						{
+							"id": 1043141608147841024,
+							"name": "Scott Morrison",
+							"description": "Prime Minister of Australia, Scott Morrison"
+						},
+						{
+							"id": 1043141608147841024,
+							"name": "Scott Morrison",
+							"description": "Prime Minister of Australia, Scott Morrison"
+						},
+						{
+							"id": 1484601166080081920,
+							"name": "Russo-Ukrainian conflict",
+							"description": ""
+						}
+					],
+					"links": [
+						{
+							"id": 2852131,
+							"title": "",
+							"url": "https://twitter.com/ChrisMinnsMP/status/1497399268243652611",
+							"description": ""
+						}
+					],
+					"hashtags": [
+						{
+							"id": 8334578423031099137,
+							"tag": "StandWithUkraine"
+						}
+					],
+					"conversation_references": [
+						{
+							"conversation_id": 1497761622831824897,
+							"parent_id": 1497399268243652611,
+							"reference_type": "quoted"
+						}
+					]
+				}
+			}
+		]
+	}
+}
